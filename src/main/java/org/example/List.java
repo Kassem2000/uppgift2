@@ -22,6 +22,7 @@ public class List {  // Detta är en klass som jag gjorde för att kunna
           list = gson.fromJson(reader, type);
           reader.close();
       }
+
       public void listaFÖrInkomstOchUtgift() throws IOException { // Denna metoden hämtar lista
         läsaFil();                                                // för både income och expense
         System.out.println("Lista för din inkomst och utgift");

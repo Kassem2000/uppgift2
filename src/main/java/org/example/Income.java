@@ -7,9 +7,7 @@ public class Income extends Transaction {
         super(belopp, datum);
          setInkomstKategori(inkomstKategori);
     }
-  /*  public ElncomeCategory getInkomstKategori() {    // Denna ska också bort om inte något ändras i koden
-        return inkomstKategori;
-    }*/
+
     public void setInkomstKategori(int inkomstKategori) {
         switch (inkomstKategori) {
             case 1:

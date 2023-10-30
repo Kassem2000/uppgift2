@@ -126,7 +126,6 @@ public class IncomeStorage {
                System.out.println("Användaren finns inte i listan.");
            }
        }
-
        public void inkomstLista() throws IOException { //Denna metoden gör att om ditt namn finns med
         läsaFil();                                     // i systemet så kan du se lista över dina inkosmter
         System.out.println("Lista för din inkomst");

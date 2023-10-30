@@ -8,10 +8,6 @@ public class Expense extends Transaction {
         setUtgiftKategori(utgiftkategori);
     }
 
-    /*public EExpenseCategory getUtgiftKategori() {  // Denna kan tas bort om inget ändras i koden
-        return utgiftKategori;
-    }*/
-
     public void setUtgiftKategori(int utgiftKategori) {
         switch (utgiftKategori) {
             case 1:

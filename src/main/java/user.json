@@ -17,14 +17,14 @@
     "förNamn": "Helena",
     "efterNamn": "Lärare",
     "inkomst": {
-      "inkomstKategori": "BIDRAG",
-      "Belopp": 400.0,
+      "inkomstKategori": "ÖVRIGT",
+      "Belopp": 0.0,
       "datum": "2023/10/27"
     },
     "utgifter": {
       "utgiftKategori": "EL",
       "Belopp": 0.0,
-      "datum": "2023/10/27"
+      "datum": "2023/10/30"
     }
   }
 }
