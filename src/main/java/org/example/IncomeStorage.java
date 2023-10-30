@@ -29,7 +29,7 @@ public class IncomeStorage {
     }
     public void moneyLeft() throws IOException { // Denna metoden ser till att du kan se hur mycket pengar du har kvar
         läsaFil();
-        System.out.println("Kvar i kontot ");
+        System.out.println("Kvar i kontot");
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Ange ditt förnamn: ");
